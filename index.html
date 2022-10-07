@@ -92,7 +92,7 @@
 
         <!-- Bottom biography -->
         <div class="form-wrapper p-5 m-3 bg-white rounded-2">
-            <form class="d-flex flex-column">
+            <form class="d-flex flex-column" onsubmit="mainFunction().getData(); return false;">
                 <div class="row my-1">
                     <div class="col-2">
                         <label>Name</label>
@@ -171,7 +171,7 @@
                     </div>
                 </div>
                 <div class="mt-3 mb-1">
-                    <input class="bg-success w-100 border-white text-white rounded-2 shadow-sm" type="submit" id="btn-submit" name="SUBMIT" onclick="mainFunction().getData(); return false;">
+                    <input class="bg-success w-100 border-white text-white rounded-2 shadow-sm" type="submit" id="btn-submit">
                 </div>
             </form>
         </div>
